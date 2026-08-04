@@ -1,0 +1,158 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro {
+    text-align: right;
+
+    p {
+        opacity: .7;
+    }
+}
+
+.product_image:hover img {
+    transform: scale(1.2);
+}
+
+.product_image {
+    margin: 0 auto;
+    overflow: visible;
+
+    img {
+        margin: 0 auto;
+        display: block;
+        border-radius: 20px;
+        height: 323px;
+        width: 400px;
+        position: relative;
+        z-index: 2;
+        transition: transform 0.4s ease;
+    }
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+
+
+    img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        margin: 0 auto;
+    }
+}
+
+.product_container {
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 200;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: flex-end;
+        line-height: 1.5;
+    }
+}
+
+.sales_text {
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px 20px 30px 20px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+    text-decoration: none;
+
+    p {
+        border-radius: 20px;
+    }
+}
+
+.Mercurial {
+    background: linear-gradient(to bottom, black, lightpink, black, lightpink);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: silver;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: pink;
+    }
+
+}
+
+.Air_Force_white {
+    background: linear-gradient(to bottom right, lightgray, #ffffff);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+    }
+}
+
+.pegassus {
+    background: linear-gradient(to bottom right, #ff7700, orange);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+    }
+}
