@@ -156,3 +156,24 @@ nav {
         color: black;
     }
 }
+
+.sinner_1 {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: gold;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: gold;
+    }
+}
