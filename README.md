@@ -1,6 +1,6 @@
 >### Nike website
 >A website that displays Nike's major products and iconic collabs while staying loyal to the urban designs.
->![Visual hook](C:\Users\Admin\OneDrive\Desktop\Nike website\Video\Prject.gif)
+>![Visual hook](https://github.com/onanaalan69-ctrl/Nike-website/blob/main/Video/Prject.gif?raw=true)
 > ## [Try it out here!](https://nike-website-alan-christopher.vercel.app/)
 >
 >The site features static HTML pages with a CSS design and vanilla javaScript. It is made up of:
