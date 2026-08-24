@@ -1,0 +1,19 @@
+<div class="product_container">
+
+    <div class="particular_prod_style">
+        <h1>Product name</h1>
+        <div class="product_image">
+            <img src="product_link_image" alt="Product name">
+        </div>
+        <h2>Hook</h2>
+        <div class="sales_text">
+            <p>Sales Text </p>
+        </div>
+    </div>
+    <div class="buy">
+        <p>Get yours right here 👉</p>
+         <a href="link_to_like">❤️</a> <a href="link_to_buy">🛒</a> 
+    </div>
+</div>
+
+<a href="mailto:onanaalan7@gmail.com?subject=Expressing%20love%20for%20product&body=I%20visited%20your%20site%20and%20I%20loved%X">❤️</a>

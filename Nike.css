@@ -8,11 +8,12 @@ body {
     p {
         opacity: .7;
     }
+
     .notice {
-        opacity:.5;
+        opacity: .5;
         text-align: left;
         font-size: 1rem;
-        }
+    }
 }
 
 .product_image:hover img {
@@ -91,6 +92,10 @@ nav {
         text-decoration: none;
         color: white;
         margin: 0 auto;
+    }
+
+    .on {
+        text-decoration: underline;
     }
 }
 
@@ -216,5 +221,202 @@ nav {
     .sales_text {
         background-color: transparent;
         color: gold;
+    }
+}
+
+.supreme {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+    }
+}
+
+.lego {
+    background: linear-gradient(to bottom right, rgb(252, 196, 118), #ffa007);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: lightblue;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgb(135, 206, 230);
+        ;
+    }
+}
+
+.beat {
+    background: linear-gradient(to bottom, rgb(165, 246, 165), white);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: lightgreen;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: lightgreen;
+    }
+}
+
+.bts {
+    background-color: black;
+    background-image: url('C:/Users/Admin/OneDrive/Desktop/Nike website/Images/bgbts.png');
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: gainsboro;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: gainsboro;
+    }
+}
+
+.kyky {
+    background: linear-gradient(to bottom right, rgba(255, 217, 0, 0.689), green);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: rgba(0, 0, 255, 0.688);
+    }
+
+    img {
+        box-shadow: 0px 0px 20px blue;
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgba(0, 0, 255, 0.688);
+        margin: 15px;
+    }
+}
+
+.wemby {
+    background-color: black;
+    background-image: url('C:/Users/Admin/OneDrive/Desktop/Nike website/Images/alien.png');
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(101, 101, 126);
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.alcaraz {
+    background-color: rgb(123, 199, 229);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: rgb(171, 16, 171);
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 300px;
+        height: 343px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgb(171, 16, 171);
+        margin: 15px;
+    }
+}
+
+.rash {
+    background-color: white;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: orange;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 300px;
+        height: 355px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: orange;
+        margin: 15px;
+    }
+}
+
+.one {
+    background-color: rgba(255, 0, 0, 0.721);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 355px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
     }
 }
