@@ -11,17 +11,33 @@ body {
     }
 }
 
+.notice {
+    opacity: .5;
+    text-align: left;
+    font-size: 1rem;
+}
+
 .intro {
     text-align: right;
 
     p {
         opacity: .7;
     }
+}
 
-    .notice {
-        opacity: .5;
-        text-align: left;
-        font-size: 1rem;
+.intro_conv {
+    text-align: center;
+
+    p {
+        opacity: .7;
+    }
+}
+
+.intro_jord {
+    text-align: left;
+
+    p {
+        opacity: .7;
     }
 }
 
