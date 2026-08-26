@@ -1,6 +1,6 @@
 >### Nike website
 >A website that displays Nike's major products and iconic collabs while staying loyal to the urban designs.
->![Visual hook](Video/Prject.gif)
+>![Visual hook](Video/Prj.gif)
 > ## [Try it out here!](https://nike-website-gilt.vercel.app/)
 >
 >The site features static HTML pages with a CSS design and vanilla javaScript. It is made up of:
