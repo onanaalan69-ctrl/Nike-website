@@ -45,26 +45,6 @@ body {
     transform: scale(1.2);
 }
 
-.intro_swoosh {
-    height: 199px;
-    width: 199px;
-    display: block;
-    border: solid transparent;
-    border-radius: 25px;
-}
-
-.jordan {
-    height: 185px;
-    width: 199px;
-    display: block;
-    border: solid 2px transparent;
-    border-radius: 50px;
-    bottom: 20px;
-    right: 20px;
-    position: fixed;
-    z-index: 999;
-}
-
 [data-theme="white_theme"] {
     --text: black;
     --bgcolor: white;
@@ -75,31 +55,51 @@ body {
     --bgcolor: black;
 }
 
-.index_body {
-    background-color: var(--bgcolor);
-    color: var(--text);
-    transition: background-color 0.4s ease, color 0.4s ease;
-
-    .logo {
-        opacity: 0;
-        animation: fadeInUp 1.8s cubic-bezier(.25, 1, 0.5, 1) forwards;
-    }
-
-    flex-direction: column;
-    text-align: center;
-
-    a {
-        margin: 0 auto;
-        text-decoration: none;
-        color: var(--text);
-        padding: 20px;
-        line-height: 4.5;
-        font-family: Impact, "Arial Black", "Arial Bold", sans-serif;
-        font-size: larger;
-        font-weight: 400;
-    }
+[data-theme="whitebg"] {
+    --bgcolor: white;
+    --bgimage: url('C:/Users/Admin/OneDrive/Desktop/Nike website/Images/bgindexw.png');
+    --text: black;
 }
 
+[data-theme="blackbg"] {
+    --bgcolor: black;
+    --bgimage: url('C:/Users/Admin/OneDrive/Desktop/Nike website/Images/bgindexb.png');
+    --text: white;
+}
+
+.magicButton {
+    color: var(--text);
+    text-align: center;
+}
+
+.index_body {
+    background-color: var(--bgcolor);
+    background-image: var(--bgimage);
+    color: var(--text);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-color 0.4s ease, background-image 0.4s ease, color 0.4s ease;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Monument Extended', 'Helvetica Neue', 'Arial Black', sans-serif;
+
+    button {
+        border: solid var(--bgcolor);
+        border-radius: 25px;
+        padding: 20px;
+        max-width: 400px;
+        margin: 20px;
+        cursor: pointer;
+        color: var(--text);
+        background-color: var(--bgcolor);
+    }
+
+}
 
 .product_image {
     margin: 0 auto;
@@ -682,6 +682,359 @@ nav {
     .sales_text {
         background-color: transparent;
         color: gold;
+        margin: 15px;
+    }
+}
+
+.DN {
+    background-color: rgb(239, 21, 239);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 290px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.unity {
+    background: linear-gradient(to bottom right, lightblue, rgb(159, 112, 47));
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 290px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.proto {
+    background: linear-gradient(to bottom right, white, orange);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: brown;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 290px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: brown;
+        margin: 15px;
+    }
+}
+
+.GT {
+    background-color: lightgreen;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 255, 183);
+        width: 290px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.P41 {
+    background: linear-gradient(to bottom, black, rgb(31, 161, 31), black, rgb(31, 161, 31));
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: rgb(4, 63, 4);
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 290px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgb(4, 63, 4);
+        margin: 15px;
+    }
+}
+
+.crush {
+    background-color: #e06a0b;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.patch {
+    background-image: url('Images/bgpatch.png');
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.BB {
+    background-color: #e06a0b;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: rgb(194, 10, 10);
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgb(194, 10, 10);
+        margin: 15px;
+    }
+}
+
+.run {
+    background-color: pink;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.AS {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.cruise {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.grat {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: goldenrod;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: goldenrod;
+        margin: 15px;
+    }
+}
+
+.cat {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: rgba(255, 255, 255, 0.3);
+        color: black;
+        margin: 15px;
+
+    }
+}
+
+.paris {
+    background-color: pink;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: rgb(205, 5, 72);
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgb(205, 5, 72);
+        margin: 15px;
+    }
+}
+
+.thunder {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.heir {
+    background-color: lightblue;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: red;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: red;
         margin: 15px;
     }
 }
