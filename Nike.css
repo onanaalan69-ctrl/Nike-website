@@ -1040,3 +1040,272 @@ nav {
         margin: 15px;
     }
 }
+
+.dior {
+    background: linear-gradient(to bottom right, gray, rgb(185, 183, 183));
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.rei {
+    background-color: gray;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: red;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.sacai {
+    background: linear-gradient(to bottom right, wheat, gray);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: darkblue;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 280px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: green;
+        margin: 15px;
+    }
+}
+
+.scott {
+    background: linear-gradient(to bottom, rgb(152, 252, 215), #BCAF07);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: #BCAF07;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 320px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgb(152, 252, 215);
+        margin: 15px;
+    }
+}
+
+.billie {
+    background-color: skyblue;
+    border-radius: 20px;
+    transition: 2s ease;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.billie:hover {
+    transform: rotate(-5deg);
+}
+
+.sw {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: gold;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 300px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: gold;
+        margin: 15px;
+    }
+}
+
+.LJ {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.sab {
+    background-color: rgb(122, 183, 49);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.haaland {
+    background-color: rgb(15, 87, 115);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: orange;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: orange;
+        margin: 15px;
+    }
+}
+
+.kip {
+    background-image: url(Images/bgkip.png);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: green;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: red;
+        margin: 15px;
+    }
+}
+
+.ohsu {
+    background-color: wheat;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.PS {
+    background: linear-gradient(to bottom right, red, rgb(31, 161, 31), blue, yellow);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
