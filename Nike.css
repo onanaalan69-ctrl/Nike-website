@@ -164,11 +164,9 @@ nav {
         display: flex;
         justify-content: center;
         font-weight: 200;
-
     }
 
     p {
-
         line-height: 1.5;
     }
 }
@@ -179,16 +177,14 @@ nav {
     margin: 30px 20px 30px 20px;
 }
 
-.buy {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 50px 0 50px;
+.buy a {
     text-decoration: none;
+    display: inline-block;
+    font-size: 2rem;
+}
 
-    p {
-        border-radius: 20px;
-    }
+.buy {
+    margin-left: 100px;
 }
 
 .Mercurial {
@@ -1493,6 +1489,138 @@ nav {
     h2,
     h1 {
         color: gray;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.liquid {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: green;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: green;
+        margin: 15px;
+    }
+}
+
+.invincible {
+    background-color: pink;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: lightskyblue;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: lightskyblue;
+        margin: 15px;
+    }
+}
+
+.winflo {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: rgba(169, 144, 6, 0.723);
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgba(169, 144, 6, 0.723);
+        margin: 15px;
+    }
+}
+
+.j38 {
+    background: linear-gradient(to bottom right, white, gray);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: rgb(223, 54, 54);
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: rgb(223, 54, 54);
+        margin: 15px;
+    }
+}
+
+.j41 {
+    background-color: rgb(128, 24, 24);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.j2 {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
     }
 
     img {

@@ -1,0 +1,10 @@
+.buy a{
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.buy{
+    margin-left: 100px;
+    padding: 20px;
+}

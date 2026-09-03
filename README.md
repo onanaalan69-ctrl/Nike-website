@@ -18,7 +18,7 @@ Features
 + A landing page which can change from day to night theme,
 + Each section has a page dedicated to Converse and Jordan, as Nike's sub-branches,
 + A section to show the shoe products sold by Nike,
-+ A section to show the greatest collabs by Nike,
++ A section to show the greatest collabs by Nike, 
 + *100% factual feed* through which user can scroll through with more than 40 Nike products and realted collabs,
 + A like button on each post to send a product-tailored Email to me, saying you love the product or post.
 
