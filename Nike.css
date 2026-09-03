@@ -1375,3 +1375,135 @@ nav {
         margin: 15px;
     }
 }
+
+.rot {
+    background-color: white;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.vitra {
+    background-color: white;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: black;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: black;
+        margin: 15px;
+    }
+}
+
+.csr {
+    background-color: white;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: lightskyblue;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: lightskyblue;
+        margin: 15px;
+    }
+}
+
+.bcm {
+    background-color: yellowgreen;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(0, 0, 0);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.N7 {
+    background-color: black;
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: white;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 350px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
+
+.Girls {
+    background: linear-gradient(to bottom, white, gray);
+    border-radius: 20px;
+
+    h2,
+    h1 {
+        color: gray;
+    }
+
+    img {
+        box-shadow: 0px 0px 20px rgb(255, 255, 255);
+        width: 270px;
+        height: 300px;
+    }
+
+    .sales_text {
+        background-color: transparent;
+        color: white;
+        margin: 15px;
+    }
+}
