@@ -95,7 +95,7 @@ body {
         border-radius: 25px;
         padding: 20px;
         max-width: 400px;
-        margin: 20px;
+
         cursor: pointer;
         color: var(--text);
         background-color: var(--bgcolor);
@@ -1634,4 +1634,237 @@ nav {
         color: white;
         margin: 15px;
     }
+}
+
+.intro_image {
+    background-color: gray;
+    display: block;
+    object-fit: cover;
+    border: solid transparent;
+    border-radius: 25px;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
+.item_lists {
+    text-align: left;
+    padding-left: 50px;
+    font-size: large;
+}
+
+.item_roll {
+    padding: 0 1rem;
+    overflow-x: scroll;
+    min-height: 430px;
+    display: flex;
+
+}
+
+.item_container {
+    border: solid black;
+    border-radius: 25px;
+    min-width: 300px;
+    max-height: 450px;
+    margin: 20px;
+    color: var(--text_ball);
+    background: var(--bgcolor_ball);
+
+    img {
+        width: 100px;
+        height: 100px;
+        border: transparent solid;
+        border-radius: 25px;
+        object-fit: cover;
+    }
+
+    ul {
+        margin: auto;
+    }
+
+    li {
+        text-align: left;
+    }
+
+    p {
+        text-align: center;
+        font-weight: 900;
+    }
+}
+
+.item_container:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+[data-theme="flight"] {
+    --bgcolor_ball: rgb(206, 255, 255);
+    --text_ball: rgb(57, 57, 244);
+}
+
+[data-theme="legacy"] {
+    --bgcolor_ball: rgba(255, 217, 0, 0.749);
+    --text_ball: black;
+}
+
+[data-theme="control"] {
+    --bgcolor_ball: white;
+    --text_ball: black;
+}
+
+[data-theme="academy"] {
+    --bgcolor_ball: black;
+    --text_ball: white;
+}
+
+[data-theme="plus"] {
+    --bgcolor_ball: linear-gradient(to bottom, red, black);
+    --text_ball: white;
+}
+
+[data-theme="standard"] {
+    --bgcolor_ball: rgba(255, 217, 0, 0.996);
+    --text_ball: black;
+}
+
+[data-theme="pitch"] {
+    --bgcolor_ball: black;
+    --text_ball: green;
+}
+
+[data-theme="strike"] {
+    --bgcolor_ball: lightskyblue;
+    --text_ball: white;
+}
+
+[data-theme="Maestro"] {
+    --bgcolor_ball: red;
+    --text_ball: wheat;
+}
+
+[data-theme="skills"] {
+    --bgcolor_ball: linear-gradient(to bottom right, purple, greenyellow);
+    --text_ball: white;
+}
+
+[data-theme="champ"] {
+    --bgcolor_ball: black;
+    --text_ball: red;
+}
+
+[data-theme="dom"] {
+    --bgcolor_ball: orange;
+    --text_ball: white;
+}
+
+[data-theme="tournament"] {
+    --bgcolor_ball: rgb(181, 121, 11);
+    --text_ball: black;
+}
+
+[data-theme="all"] {
+    --bgcolor_ball: rgb(147, 199, 27);
+    --text_ball: gray;
+}
+
+[data-theme="grip"] {
+    --bgcolor_ball: linear-gradient(to bottom right, rgb(125, 27, 16), black);
+    --text_ball: white;
+}
+
+[data-theme="jordan"] {
+    --bgcolor_ball: rgb(138, 28, 22);
+    --text_ball: white;
+}
+
+[data-theme="lebron"] {
+    --bgcolor_ball: linear-gradient(to bottom right, purple, greenyellow);
+    --text_ball: white;
+}
+
+[data-theme="giannis"] {
+    --bgcolor_ball: linear-gradient(to bottom, green, purple);
+    --text_ball: white;
+}
+
+[data-theme="sabrina"] {
+    --bgcolor_ball: black;
+    --text_ball: gray;
+}
+
+[data-theme="mini"] {
+    --bgcolor_ball: linear-gradient(to bottom right, lightpink, rgb(101, 56, 101), rgb(4, 127, 20));
+    --text_ball: white;
+}
+
+[data-theme="vapor"] {
+    --bgcolor_ball: brown;
+    --text_ball: white;
+}
+
+[data-theme="tournamentA"] {
+    --bgcolor_ball: rgb(189, 45, 45);
+    --text_ball: white;
+}
+
+[data-theme="champA"] {
+    --bgcolor_ball: rgba(165, 42, 42, 0.418);
+    --text_ball: white;
+}
+
+[data-theme="vapor1"] {
+    --bgcolor_ball: brown;
+    --text_ball: white;
+}
+
+[data-theme="refuel"] {
+    --bgcolor_ball: rgb(234, 182, 24);
+    --text_ball: black;
+}
+
+[data-theme="flex"] {
+    --bgcolor_ball: white;
+    --text_ball: black;
+}
+
+[data-theme="ACG"] {
+    --bgcolor_ball: black;
+    --text_ball: white;
+}
+
+[data-theme="chug"] {
+    --bgcolor_ball: black;
+    --text_ball: white;
+}
+
+[data-theme="SS"] {
+    --bgcolor_ball: lightgreen;
+    --text_ball: black;
+}
+
+[data-theme="jug"] {
+    --bgcolor_ball: black;
+    --text_ball: white;
+}
+
+[data-theme="big"] {
+    --bgcolor_ball: black;
+    --text_ball: lightgreen;
+}
+
+[data-theme="tritan"] {
+    --bgcolor_ball: gray;
+    --text_ball: white;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+
+.blue_text {
+    font-size: 2.1rem;
+    text-align: center;
 }

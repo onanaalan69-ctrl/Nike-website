@@ -30,7 +30,8 @@ Why a Nike website ?
 I tried to make it more *unconventional* to web design conventions, beacause as Nike says: *"Rip the Script..."*
 [Image of the rip the script collab on my site](Images/rip.png)
 
----------------------------------------------------------------------------Credits
+---------------------------------------------------------------------------
+Credits
 ==============================================================================================================================
 This site is for non-commercial purposes.
 

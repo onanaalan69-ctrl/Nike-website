@@ -11,12 +11,20 @@ magicSwoosh.addEventListener("click", () => {
 
 const ad = document.querySelector("#ad");
 const shoe = document.querySelector("#shoe");
+const sports = document.querySelector("#sports");
+const genesis = document.querySelector("#genesis");
 
 ad.addEventListener("click", () => {
     window.location.href = "ad.html";
 })
 shoe.addEventListener("click", () => {
     window.location.href = "shoe.html";
+})
+sports.addEventListener("click", () =>{
+    window.location.href = "sports.html"
+})
+genesis.addEventListener("click", () =>{
+    window.location.href = "genesis.html"
 })
 
 const heart = document.querySelector('.buy a');
