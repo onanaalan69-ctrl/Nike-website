@@ -28,7 +28,6 @@ Why a Nike website ?
 *Just do it!* This is a sentence that perfectly ties with my value of always giving a shot when something interests me. Guess what, it's Nike's official slogan. This brand legendary and has done wonderful collabs that still marks me. So, I decided to make a site for it.
 
 I tried to make it more *unconventional* to web design conventions, beacause as Nike says: *"Rip the Script..."*
-[Image of the rip the script collab on my site](Images/rip.png)
 
 ---------------------------------------------------------------------------
 Credits

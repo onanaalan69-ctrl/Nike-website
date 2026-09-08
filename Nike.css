@@ -121,6 +121,10 @@ body {
 
 nav {
     display: flex;
+    border: solid transparent;
+    border-radius: 25px;
+    margin: 15px;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255);
     background-color: black;
     color: whitesmoke;
     z-index: 1000;
@@ -597,6 +601,7 @@ nav {
 }
 
 .weps {
+    background-color: blue;
     background-image: url('https://github.com/onanaalan69-ctrl/Nike-website/blob/main/Images/bgweps.png?raw=true');
     border-radius: 20px;
 
