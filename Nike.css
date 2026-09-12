@@ -58,7 +58,7 @@ body {
 }
 
 [data-theme="whitebg"] {
-    --bgcolor: white;
+    --bgcolor: #FAFAFA;
     --bgimage: url('https://github.com/onanaalan69-ctrl/Nike-website/blob/main/Images/bgindexw.png?raw=true');
     --text: black;
 }
@@ -146,7 +146,11 @@ nav {
     }
 
     .on {
-        text-decoration: underline;
+        background-color: white;
+        color: black;
+        border-radius: 25px;
+        padding: 6px;
+        font-weight: 700;
     }
 }
 
@@ -624,7 +628,7 @@ nav {
 }
 
 .j4 {
-    background-color: rgb(28, 153, 231);
+    background-color: rgb(20, 105, 158);
     border-radius: 20px;
 
     h2,
@@ -788,7 +792,7 @@ nav {
 
     img {
         box-shadow: 0px 0px 20px rgb(255, 255, 255);
-        width: 290px;
+        width: 320px;
         height: 300px;
     }
 
@@ -1586,7 +1590,7 @@ nav {
 
     img {
         box-shadow: 0px 0px 20px rgb(255, 255, 255);
-        width: 270px;
+        width: 380px;
         height: 300px;
     }
 
